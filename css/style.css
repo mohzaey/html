@@ -1,0 +1,45 @@
+.column {
+    /*selects all element with class="column"*/
+    .calendar-cell
+}
+#first-item {
+    /*selects element with id="first-item"*/
+    #job-title
+}
+h4, h5 {
+    /*group CSS selectors*/
+    color: chartreuse; font-size: 35px;
+}
+h6.section-heading {
+    /*select h6 elements with the section-heading class*/
+    color: darkkhaki;
+}
+h6#header {
+    /*specify ranking system when multiple conflicting property values point same element*/
+    /*most specific is id selector then class selector then type selector
+}
+.section-heading.button {
+    /*select element with the section-heading and button class*/
+    cursor: pointer;
+}
+p {
+    /*selects all <p> tags*/ 
+    /*id selector*/
+}
+div p {
+    /*css descendant selector combinator to match elements descended from another matched selector, denoted by a single space, all matching elements selected regardless of the nesting level*/
+    section ol li {}
+}
+//'element1'  will overlap 'element2'
+.element1 {
+    position: absolute;
+    z-index: 1;
+}
+.element2 {
+    position: absolute;
+    z-index: -1;
+}
+//'fixed css positioning'
+navbar {
+    position: fixed;
+}
